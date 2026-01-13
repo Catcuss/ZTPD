@@ -1,3 +1,3 @@
-#Maria Nowicka 151851
+# Maria Nowicka 151851
 
-Zadania dla przedmiotu Zaawansowane technologie przetwarzania danych
+## Zadania dla przedmiotu Zaawansowane technologie przetwarzania danych
