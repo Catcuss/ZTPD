@@ -1,0 +1,32 @@
+Zadanie 9
+SWIAT/KRAJE/KRAJ
+Zadanie 11
+SWIAT/KRAJE/KRAJ[@KONTYNENT='k1']
+Zadanie 12
+SWIAT/KRAJE/KRAJ[@KONTYNENT=SWIAT/KONTYNENTY/KONTYNENT[NAZWA='Europe']/@ID]
+Zadanie 15
+count(SWIAT/KRAJE/KRAJ[@KONTYNENT='k1'])
+Zadanie 17
+position()
+Zadanie 21
+NAZWA
+Zadanie 27
+SWIAT/KRAJE/KRAJ
+Zadanie 28
+/SWIAT/KRAJE/KRAJ[starts-with(NAZWA, 'A')]
+Zadanie 29
+/SWIAT/KRAJE/KRAJ[substring(NAZWA, 1, 1) = substring(STOLICA, 1, 1)]
+Zadanie 30
+//KRAJ
+Zadanie 31
+doc('file:///C:/Users/Maria/Desktop/XPath-XSLT/zesp_prac.xml')
+Zadanie 32
+doc('file:///C:/Users/Maria/Desktop/XPath-XSLT/zesp_prac.xml')//NAZWISKO
+Zadanie 33
+doc('file:///C:/Users/Maria/Desktop/XPath-XSLT/zesp_prac.xml')/NAZWISKO'/ZESPOLY/ROW[NAZWA='SYSTEMY EKSPERCKIE']/PRACOWNICY/ROW/NAZWISKO
+Zadanie 34
+count(doc('file:///C:/Users/Maroa/Desktop/XPath-XSLT/zesp_prac.xml')/ZESPOLY/ROW[ID_ZESP=10]/PRACOWNICY/ROW)
+Zadanie 35
+doc('file:///C:/Users/Maria/Desktop/XPath-XSLT/zesp_prac.xml')//PRACOWNICY/ROW[ID_SZEFA=100]/NAZWISKO
+Zadanie 36
+sum(doc('file:///C:/Users/Maria/Desktop/XPath-XSLT/zesp_prac.xml')/ZESPOLY/ROW[PRACOWNICY/ROW/NAZWISKO='BRZEZINSKI']/PRACOWNICY/ROW/PLACA_POD)
